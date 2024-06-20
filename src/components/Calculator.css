@@ -1,0 +1,32 @@
+.calculator {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #282c34;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: #3b3f47;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: right;
+  color: #61dafb;
+}
+
+.input, .result {
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
